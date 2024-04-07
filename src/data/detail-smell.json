@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Data Class",
+            "desc": "Data Class Smell terjadi ketika sebuah class hanya digunakan untuk menyimpan data dan tidak memiliki fungsi lainnya.",
+            "code": true,
+            "treatment": "Untuk mengatasi smell code di atas, kita dapat melakukan Move Method dan Extract Method dari class lain ke class yang memiliki data tersebut."
+        },
+        {
+            "id": 2,
+            "title": "Duplicate Code",
+            "desc": "Duplicate Code adalah smell yang terjadi ketika ada lebih dari satu method yang sama atau mirip dalam suatu project.",
+            "code": true,
+            "treatment": "Untuk smell di atas, kita dapat menggunakan solusi Extract Method dengan mengeluarkan method calculateArea() dan membuat sebuah abstract class yaitu class Shape dengan method calculateArea()."
+        },
+        {
+            "id": 3,
+            "title": "Speculative Generality",
+            "desc": "Speculative Generality adalah smell yang terjadi ketika sepotong code dibuat berdasarkan spekulasi masa depan terhadap project tersebut, sehingga ada code kompleks yang mungkin belum berguna pada saat software tersebut digunakan.",
+            "code": false,
+            "treatment": "Menghapus code yang tidak diperlukan untuk project pada saat itu."
+        },
+        {
+            "id": 4,
+            "title": "Dead Code",
+            "desc": "Dead Code smell terjadi ketika ada code yang tidak digunakan, baik code tersebut adalah sebuah variabel, parameter, method, class, atau parameters. Smell ini biasanya terjadi ketika refactoring dan code yang tidak digunakan tidak langsung dihapus sehingga akan mengacaukan codebase.",
+            "code": false,
+            "treatment": "Langsung menghapus potongan code yang tidak digunakan."
+        },
+        {
+            "id": 5,
+            "title": "Lazy Class",
+            "desc": "Lazy Class dapat kita temukan ketika ada sebuah class yang jarang digunakan, smell ini dapat menghambat development karena kompleksitas codebase yang meningkat.",
+            "code": false,
+            "treatment": "Menghapus class yang jarang digunakan dan memindahkan fungsinya ke class lain menggunakan Extract Method."
+        },
+        {
+            "id": 6,
+            "title": "Divergent Change",
+            "desc": "Divergent Change adalah keadaan yang terjadi ketika banyak perubahan dilakukan pada satu kelas atau modul tertentu. Ini menunjukkan bahwa kelas tersebut memiliki terlalu banyak tanggung jawab atau responsabilitas, sehingga perubahan yang dilakukan pada satu fungsionalitas atau fitur sering kali mempengaruhi banyak bagian dari kelas tersebut."
+        },
+        {
+            "id": 7,
+            "title": "Shotgun Surgery",
+            "desc": "Shotgun Surgery adalah fenomena di mana satu perubahan memengaruhi banyak kelas sekaligus dalam kode  di mana hal ini terjadi ketika sebuah modifikasi memerlukan sejumlah kecil perubahan yang tersebar di berbagai kelas dalam basis kode. Dalam hal ini, kita harus mengedit modifikasi yang sama di setiap kelas yang telah kita buat."
+        },
+        {
+            "id": 8,
+            "title": "Parallel Inheritance Hierarchies",
+            "desc": "Parallel Inheritance Hierarchies adalah bad code smell yang terjadi ketika menambahkan sebuah kelas yang baru yang pada akhirnya bersifat memaksa untuk membuat kelas dependen lainnya. Kelas-kelas dalam program membentuk dua atau lebih hierarki sejajar. Hierarki-hierarki ini sering saling tergantung, menyebabkan perubahan di satu hierarki memaksa perubahan di hierarki lainnya. Ini membuat kode sulit dipahami, dipelihara, dan diperluas."
+        }
+    ]
+}
