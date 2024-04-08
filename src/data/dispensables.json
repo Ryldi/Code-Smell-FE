@@ -4,38 +4,27 @@
     "data": [
         {
             "id": 1,
-            "title": "Data Class",
-            "desc": "Data Class Smell terjadi ketika sebuah class hanya digunakan untuk menyimpan data dan tidak memiliki fungsi lainnya.",
-            "code": true,
-            "treatment": "Untuk mengatasi smell code di atas, kita dapat melakukan Move Method dan Extract Method dari class lain ke class yang memiliki data tersebut."
+            "title": "Data Class"
         },
         {
             "id": 2,
-            "title": "Duplicate Code",
-            "desc": "Duplicate Code adalah smell yang terjadi ketika ada lebih dari satu method yang sama atau mirip dalam suatu project.",
-            "code": true,
-            "treatment": "Untuk smell di atas, kita dapat menggunakan solusi Extract Method dengan mengeluarkan method calculateArea() dan membuat sebuah abstract class yaitu class Shape dengan method calculateArea()."
+            "title": "Duplicate Code"
         },
         {
             "id": 3,
-            "title": "Speculative Generality",
-            "desc": "Speculative Generality adalah smell yang terjadi ketika sepotong code dibuat berdasarkan spekulasi masa depan terhadap project tersebut, sehingga ada code kompleks yang mungkin belum berguna pada saat software tersebut digunakan.",
-            "code": false,
-            "treatment": "Menghapus code yang tidak diperlukan untuk project pada saat itu."
+            "title": "Speculative Generality"
         },
         {
             "id": 4,
-            "title": "Dead Code",
-            "desc": "Dead Code smell terjadi ketika ada code yang tidak digunakan, baik code tersebut adalah sebuah variabel, parameter, method, class, atau parameters. Smell ini biasanya terjadi ketika refactoring dan code yang tidak digunakan tidak langsung dihapus sehingga akan mengacaukan codebase.",
-            "code": false,
-            "treatment": "Langsung menghapus potongan code yang tidak digunakan."
+            "title": "Dead Code"
         },
         {
             "id": 5,
-            "title": "Lazy Class",
-            "desc": "Lazy Class dapat kita temukan ketika ada sebuah class yang jarang digunakan, smell ini dapat menghambat development karena kompleksitas codebase yang meningkat.",
-            "code": false,
-            "treatment": "Menghapus class yang jarang digunakan dan memindahkan fungsinya ke class lain menggunakan Extract Method."
+            "title": "Lazy Class"
+        },
+        {
+            "id": 6,
+            "title": "Comments"
         }
     ]
 }

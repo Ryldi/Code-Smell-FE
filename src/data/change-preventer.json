@@ -3,19 +3,16 @@
     "desc": "Change Preventer adalah suatu konsep dalam software development yang menggambarkan situasi di mana struktur kode membuatnya sulit untuk dimodifikasi. Hal ini dikarenakan ketika bagian kode tertentu diubah akan turut serta mempengaruhi bagian yang lainnya. Keadaan yang demikian memaksa kita untuk mengedit banyak bagian kode secara bertahap yang pada akhirnya dapat menghambat pengembangan dan mengurangi efisiensi dalam menghasilkan perubahan yang diinginkan.",
     "data": [
         {
-            "id": 6,
-            "title": "Divergent Change",
-            "desc": "Divergent Change adalah keadaan yang terjadi ketika banyak perubahan dilakukan pada satu kelas atau modul tertentu. Ini menunjukkan bahwa kelas tersebut memiliki terlalu banyak tanggung jawab atau responsabilitas, sehingga perubahan yang dilakukan pada satu fungsionalitas atau fitur sering kali mempengaruhi banyak bagian dari kelas tersebut."
-        },
-        {
             "id": 7,
-            "title": "Shotgun Surgery",
-            "desc": "Shotgun Surgery adalah fenomena di mana satu perubahan memengaruhi banyak kelas sekaligus dalam kode  di mana hal ini terjadi ketika sebuah modifikasi memerlukan sejumlah kecil perubahan yang tersebar di berbagai kelas dalam basis kode. Dalam hal ini, kita harus mengedit modifikasi yang sama di setiap kelas yang telah kita buat."
+            "title": "Divergent Change"
         },
         {
             "id": 8,
-            "title": "Parallel Inheritance Hierarchies",
-            "desc": "Parallel Inheritance Hierarchies adalah bad code smell yang terjadi ketika menambahkan sebuah kelas yang baru yang pada akhirnya bersifat memaksa untuk membuat kelas dependen lainnya. Kelas-kelas dalam program membentuk dua atau lebih hierarki sejajar. Hierarki-hierarki ini sering saling tergantung, menyebabkan perubahan di satu hierarki memaksa perubahan di hierarki lainnya. Ini membuat kode sulit dipahami, dipelihara, dan diperluas."
+            "title": "Shotgun Surgery"
+        },
+        {
+            "id": 9,
+            "title": "Parallel Inheritance Hierarchies"
         }
     ]
 }
