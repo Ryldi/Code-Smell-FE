@@ -15,7 +15,6 @@
     "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.23",
     "clsx": "^2.1.0",
-    "particles.js": "^2.0.0",
     "react": "^18.2.0",
     "react-code-blocks": "^0.1.6",
     "react-dom": "^18.2.0",
