@@ -33,7 +33,7 @@ const Menu = () => {
         className="cursor-pointer text-slate-600 hover:text-slate-300"
         onClick={() =>
           openInNewTab(
-            "https://google.com" //redirect github
+            "https://github.com/Ryldi/Code-Smell-FE" //redirect github
           )
         }
       >
@@ -79,7 +79,35 @@ const Navbar = () => {
             </div>
 
             <div className="font-semibold grid gap-3">
-              <Menu />
+              <li
+                className="cursor-pointer text-slate-600 hover:text-slate-300"
+                onClick={() => {
+                  setHidden(false);
+                  navigate("/");
+                }}
+              >
+                Home
+              </li>
+              <li
+                className="cursor-pointer text-slate-600 hover:text-slate-300"
+                onClick={() => {
+                  setHidden(false);
+                  navigate("/content");
+                }}
+              >
+                Content
+              </li>
+              <li
+                className="cursor-pointer text-slate-600 hover:text-slate-300"
+                onClick={() => {
+                  openInNewTab(
+                    "https://github.com/Ryldi/Code-Smell-FE" //redirect github
+                  );
+                  setHidden(false);
+                }}
+              >
+                Repository
+              </li>
             </div>
           </section>
         </div>
