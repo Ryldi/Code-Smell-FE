@@ -6,7 +6,6 @@ interface Props {
   data: {
     id: number;
     title: string;
-    desc: string;
   }[];
   image: JSX.Element;
 }
